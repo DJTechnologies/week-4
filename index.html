@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!--required meta come first -->
+    
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--boostrap css-->
+    <!--build:css css/main.css-->
     <link
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
@@ -18,12 +18,11 @@
       rel="stylesheet"
       href="node_modules/bootstrap-social/bootstrap-social.css"
     />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!--endbuild-->
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
-    />
-    <!--corrected error here-->
-    <link rel="stylesheet" href="css/styles.css" />
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"/>
     <title>NuCamp: A Better Way To Camp</title>
   </head>
 
@@ -460,11 +459,13 @@
         </div>
       </div>
     </footer>
+    <!-- jquery come first, then popper, then bootstrap javascript-->
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <script src="js/script.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
     <!-- <script>
       $(function () {
         $('[data-toggle="tooltip"]').tooltip();
