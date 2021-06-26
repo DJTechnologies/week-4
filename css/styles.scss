@@ -1,3 +1,4 @@
+$color-teal: #17a2b8;
 $color-primary: #3046c5;
 $color-secondary: #5637dd;
 $color-pale: #cec8ff;
@@ -78,3 +79,17 @@ a:hover {
 }
 
 // DRY don't repeat yourself rule
+
+.reserveModal {
+  .modal-header {
+    background-color: #17a2b8;
+    color: white;
+  }
+}
+
+.loginModal {
+  .modal-header {
+    background-color: #901cad;
+    color: white;
+  }
+}
