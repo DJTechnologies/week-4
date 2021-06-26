@@ -13,14 +13,30 @@ $(function () {
   });
 });
 
-$(document).onready(function () {
-  $("#reserveButton").onclick(function () {
-    $("#reserve").toggle();
-  });
-});
+// $(document).onready(function () {
+//   $("#reserveButton").onclick(function () {
+//     $("#reserve").toggle();
+//   });
+// });
 
-$(document).onready(function () {
-  $("#loginModal").onclick(function () {
-    $("#login").toggle();
-  });
+// $(document).onready(function () {
+//   $("#loginModal").onclick(reserveModalStart () {
+//     $("#login").toggle();
+//   });
+// });
+
+// function reserveModalStart() {
+//   $("#reservemodal").modal("show");
+// }
+
+// $("#reserve-button").click(reserveModalStart());
+// // $('login-button').click(startLoginModal());
+
+// // $('#reservemodal').on('shown.bs.modal')
+
+$("#reserve-button").click(function () {
+  $("#reserveModal").modal("show");
+});
+$("#login-button").click(function () {
+  $("#loginModal").modal("show");
 });

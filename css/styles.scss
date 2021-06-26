@@ -80,16 +80,16 @@ a:hover {
 
 // DRY don't repeat yourself rule
 
-.reserveModal {
+#reserveModal {
   .modal-header {
-    background-color: #17a2b8;
+    background-color: $color-teal;
     color: white;
   }
 }
 
-.loginModal {
+#loginModal {
   .modal-header {
-    background-color: #901cad;
+    background-color: $color-mid;
     color: white;
   }
 }
